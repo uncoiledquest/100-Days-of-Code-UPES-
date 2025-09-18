@@ -1,3 +1,5 @@
+// Program to perform addition, subtraction, multiplication and division of two numbers.
+
 #include <stdio.h>
 int a,b;
 void add();
