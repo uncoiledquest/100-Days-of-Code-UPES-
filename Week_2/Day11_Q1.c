@@ -45,4 +45,5 @@ int main(){
         default:
             printf("Invalid input. Please enter a month number between 1 and 12.\n");
     }
+    return 0;
 }
