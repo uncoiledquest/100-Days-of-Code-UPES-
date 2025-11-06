@@ -1,0 +1,19 @@
+//Find the sum of main diagonal elements for a square matrix.
+
+#include <stdio.h>
+int main(){
+    int n,sum=0;
+    //Making matrix
+    printf("Enter number of rows and columns for the square matrix: ");
+    scanf("%i",&n);
+    int arr1[n][n];
+    for (int i=0; i<n; i++){
+        printf("Enter elements for row %i: \n",i+1);
+        for (int j=0; j<n; j++) {
+            scanf("%i",&arr1[i][j]);
+        }
+    }
+    //Summing up
+    for (int i=0; i<n; i++) sum+=arr1[i][i];
+    printf("Sum of numbers: %i",sum);
+}

@@ -1,13 +1,13 @@
 //Program to swap the first and last digit of a number.
 #include <stdio.h>
 int main(){ 
-    int n,dig=0,t1,one,nth,mid,p=1,NUM;
+    int n,dig=0,temp,one,nth,mid,p=1,NUM;
     printf("Enter number to swap first and last digit of: ");
     scanf(" %i",&n);
-    t1=n;
+    temp=n;
 
-    while(t1!=0){
-        t1=t1/10;
+    while(temp!=0){
+        temp=temp/10;
         dig++;
     }
 
